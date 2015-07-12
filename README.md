@@ -8,6 +8,6 @@ set (CMAKE_MODULE_PATH ${URHO3D_HOME}/./CMake/Modules CACHE PATH "Path to Urho3D
 
 - 编译后把CoreData和Data复制到build/bin里
 
-- generator.cfg 来设置, 类似cmake.
+- generator.cfg 来设置, 类似cmake, 把URHO3D_HOME设为Urho3d所在目录, include和lib还有CMake目录都要一起哦.
 
 - nim代码需要使用nimrod编译器编译详情见[nim language](http://nim-lang.org/)
